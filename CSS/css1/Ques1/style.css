@@ -1,0 +1,15 @@
+/* External CSS */
+.first h2{
+    color: pink;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.first h3{
+    color: chartreuse;
+    text-align: left;
+    text-decoration-line: underline;
+}
+.second h3{
+    color:aqua;
+}

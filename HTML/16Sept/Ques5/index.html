@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup form</title>
+    <style>
+        .container{
+            width: 1000px;
+            height: 1000px;
+            background-color: lightblue;
+        }
+        h1{
+            text-align: center;
+            color:orange
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>sign up</h1>
+        <fieldset>
+            <form action="" method="">
+                <div style="margin: 20px;">
+                    <label for="first name">First Name :</label>
+                    <br>
+                    <input type="text" id="first name" name="First Name" placeholder="eg Sarthak" required minlength=3 maxlength=20>
+                </div>
+                <div style="margin: 20px;">
+                    <label for="Second name">Second Name :</label>
+                    <br>
+                    <input type="text" id="second name" name="second Name" placeholder="eg Bhandari" required minlength=3 maxlength=20>
+                </div>
+                <div style="margin: 20px;">
+                    <label for="email">Email :</label>
+                    <br>
+                    <input type="text" id="email" name="Email" placeholder="abc@gmail.com">
+                </div>
+                <div  style="margin: 20px;">
+                    <label for="password">Password :</label>
+                    <br>
+                    <input type="password" id="password" name="Password" placeholder=" ******* " required minlength=3 maxlength=20>
+                </div>
+                <div  style="margin: 20px;">
+                    <label for="Age">Age :</label>
+                    <br>
+                    <input type="number" id="Age" name="Age" placeholder="20" required min=12 max=150>
+                </div>
+                <div  style="margin: 20px;">
+                    <label for="">Gender :</label>
+                    <br>
+                    <input  type="radio" id="male" name="male">
+                    <label for="male">Male</label>
+                    <input style="margin-left: 20px;" type="radio" id="female" name="female">
+                    <label for="female">Female</label>
+                    <input style="margin-left: 20px;" type="radio" id="Other" name="Other">
+                    <label for="Other">Other</label>
+                </div>
+                <div  style="margin: 20px;">
+                    <label for="">Terms :</label>
+                    <br>
+                    <input  type="checkbox" id="terms" name="">
+                    <label for="terms">I agree to terms and conditions</label>
+                </div>
+                <button  style="margin-left: 30px; "  type="submit">submit</button>
+        </form>
+        </fieldset>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,250px);
+    padding: 2px;
+    gap: 2px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius:  10px; ;
+}
+.pic1{
+    grid-column-start:1;
+    grid-column-end :3;
+}
+.pic3{
+    grid-row-start:2;
+    grid-row-end: 4;
+}
+.pic4{
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+.pic5{
+    grid-row-start:2;
+    grid-row-end: 4;
+}
