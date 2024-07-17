@@ -19,15 +19,15 @@ console.log(`median ${median}`);
 const sum = ages.reduce((accumulator, currVal) => {
   return accumulator + currVal;
 }, 0);
-const avg=sum / ages.length;
+const avg = sum / ages.length;
 console.log("Average Age ", avg);
 
 // range of ages
-const ranges=ages[ages.length-1]-ages[0];
-console.log("Range ",ranges);
+const ranges = ages[ages.length - 1] - ages[0];
+console.log("Range ", ranges);
 
 //compare
-const minAverageDifference = Math.abs(ages[0]-avg);
-const maxAverageDifference=Math.abs(ages[ages.length-1]-avg);
-console.log("Minimum average Difference : ",minAverageDifference.toFixed(2));
-console.log("Maximum average Difference ",maxAverageDifference.toFixed(2));
+const minAverageDifference = Math.abs(ages[0] - avg);
+const maxAverageDifference = Math.abs(ages[ages.length - 1] - avg);
+console.log("Minimum average Difference : ", minAverageDifference.toFixed(2));
+console.log("Maximum average Difference ", maxAverageDifference.toFixed(2));
