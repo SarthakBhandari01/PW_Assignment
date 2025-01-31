@@ -1,9 +1,14 @@
-//Infinite Currying
-function add(a) {
-  return function (b) {
-    if (b) return add(a + b);
-    return a;
+function curry(fn) {
+  return function curried(...args) {
+    if (args.length >= fn.length) {
+      return fn(...args);
+    } else {
+      return (...moreArgs) => curried(...args, ...moreArgs);
+    }
   };
 }
-console.log(add(5)(1)(10)());
-console.log(add(10)(1)(19)(2)());
+function add(a, b) {
+  return a + b;
+}
+const curriedAdd = curry(add);
+console.log(curriedAdd(1)(2));
