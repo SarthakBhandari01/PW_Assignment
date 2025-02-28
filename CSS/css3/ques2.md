@@ -1,0 +1,2 @@
+- **Relative:** Positioned relative to its normal position, still part of the document flow.  
+- **Absolute:** Positioned relative to nearest positioned ancestor, removed from document flow.
